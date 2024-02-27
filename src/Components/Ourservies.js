@@ -3,6 +3,7 @@ import Cards from './Cards'
 
 
 import lab from '../assets/lab1.png'
+import phy from '../assets/ph1.webp'
 
 import logo from '../assets/logoo.png'
 
@@ -10,7 +11,7 @@ function Ourservies() {
   const carddetail=[
     {id:1,photo:lab,title:"Laboratry"},
     {id:2,photo:lab,title:"Home visit Doctor"},
-    {id:3,photo:lab,title:"Nurse visit"},
+    {id:3,photo:phy,title:"Nurse visit"},
     {id:4,photo:lab,title:"Vitmin IV Drips"},
     {id:5,photo:lab,title:"Vaccionation"},
     {id:6,photo:lab,title:"Physiotherapist"},
