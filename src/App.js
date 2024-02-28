@@ -1,16 +1,23 @@
 import './App.css';
-import Cards from './Components/Cards';
-import Carousel from './Components/Carousel';
+import Homepage from './Components/Homepage';
+
 import Navbarz from './Components/Navbarz';
-import Ourservies from './Components/Ourservies';
+import Aboutzwaara from './Components/Aboutzwaara';
 
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
+
+  
+    <Router>
     <Navbarz/>
-    <Carousel/>
-    <Ourservies/> 
+        <Routes>
+            <Route exact path='/' element={<Homepage/>}></Route>
+            <Route exact path='/about' element={<Aboutzwaara/>}></Route>
+            <Route exact path='/home' element={<Homepage/>}></Route>
+        </Routes>
+    </Router>
     </>
 
   );

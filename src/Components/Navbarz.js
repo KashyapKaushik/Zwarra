@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../assets/logoo.png'
+import { NavLink } from 'react-router-dom'
 
 function Navbarz() {
   return (
@@ -9,8 +10,8 @@ function Navbarz() {
                         <img className='logo' src={logo} alt="Zwaara Logo" /> 
                     </a>
                     <ul className="Navbar-nav">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Zwaara</a></li>
+                        <li><NavLink to="/">Home</NavLink></li>
+                        <li><NavLink to="/about">About Zwaara</NavLink></li>
                         <li><a href="#">Join As Provider</a></li>
                         <li><a href="#">Join As Provider</a></li>
                         <li className='Dropdown'><a href="#">Get Care<i className="ri-arrow-drop-down-line"></i></a>
