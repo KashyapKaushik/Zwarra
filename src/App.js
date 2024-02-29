@@ -5,9 +5,12 @@ import Navbarz from './Components/Navbarz';
 import Aboutzwaara from './Components/Aboutzwaara';
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Customereview from './Components/Customereview';
 function App() {
   return (
     <>
+
+    {/* <Customereview/> */}
 
   
     <Router>
