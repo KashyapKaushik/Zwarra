@@ -6,9 +6,11 @@ import { Link } from 'react-router-dom'
 function Aboutzwaara() {
   return (
     <>
-    <div className='container-fluid aboutpage mt-4'>
-      <h1 style={{ color: "#AF2245" , fontSize: "50px" ,fontWeight : "600"}}>ABOUT ZWAARA</h1>
-      <div className='container aboutfield'>
+    <div className='container-fluid aboutpage mt-5'>
+      <div className='container'>
+      <h1 style={{ color: "#AF2245" , fontSize: "40px" ,fontWeight : "600"}}>ABOUT ZWAARA</h1>
+      </div>
+      <div className='container aboutfield mt-3'>
         <div className='row mt-3'>
           <div className='col-lg-4 p-0' style={{border:"8px solid #AF2245" ,borderRadius:"12%"}}>
           <img src={abus} alt='imag' style={{width:"100%" , height:"100%" ,borderRadius:"10%"}}/>
