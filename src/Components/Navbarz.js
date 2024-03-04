@@ -13,7 +13,6 @@ function Navbarz() {
                         <li><NavLink to="/">Home</NavLink></li>
                         <li><NavLink to="/about">About Zwaara</NavLink></li>
                         <li><a href="#">Join As Provider</a></li>
-                        <li><a href="#">Join As Provider</a></li>
                         <li className='Dropdown'><a href="#">Get Care<i className="ri-arrow-drop-down-line"></i></a>
                         <div className="Dropdown-content">
                                 <li><a href="#">CareIndividual</a></li>
