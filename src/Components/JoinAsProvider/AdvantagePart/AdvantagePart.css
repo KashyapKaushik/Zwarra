@@ -1,0 +1,112 @@
+
+
+.advantagepart h4{
+    font-size: 28px;
+    color: #4FE765;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.joinpart1 h2{
+    font-size: 40px;
+    color: #002a56;
+    font-weight: 600;
+}
+.imagepart{
+    background-image: url('../../../assets/Joinaspovider/care-provider-doctors-section.png');
+    /* object-fit: cover;
+    height: 570px;
+    width: 530px; */
+    /* width: 100%; */
+    background-size: cover;
+
+    
+}
+.doctorlist {
+    list-style: none;
+}
+.doctorlist li{
+    margin-bottom: 30px;
+}
+
+.iconcontain{
+    display: flex;
+    gap: 42px;
+}
+.iconcontain i{
+    font-size: 50px;
+    color: #020288;
+    position: relative;
+}
+
+.iconcontain i::after{
+    content: "";
+    position: absolute;
+    background-image: url('../../../assets/icon-bg.svg');
+    width: 54px;
+    height: 52px;
+    background-size: 100%;
+    left: 14px;
+    top: 0;
+
+}
+
+.iconcontain h5{
+    font-size: 22px;
+    color: #002a56;
+    font-weight: 600;
+}
+
+ #newid{
+    font-size: 14px;
+    color: grey;
+    padding: 20px 0 10px 31px;
+} 
+
+.advantagepart button{
+    padding: 10px 30px;
+    align-items: center;
+}
+.joinbtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* .imagepart2{
+    background-image: url('../../../assets/Joinaspovider/care-provider-hospitals-section.png');
+
+    background-size: cover;
+    
+} */
+
+.imagepart2 img{
+    height: 830px;
+
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    margin-top: 70px;
+    background-image: linear-gradient(249.24deg, rgba(38, 169, 224, 0.15) 34.27%, rgba(79, 231, 101, 0.15) 89.68%);
+}
+.boxes h2{
+    color: #26A9E0;
+    font-size: 44px;
+}
+
+.boxes span{
+    font-size: 14px;
+    color: black;
+}
+.boxes .p1{
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 93px;
+}

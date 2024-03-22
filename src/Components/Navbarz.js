@@ -11,8 +11,8 @@ function Navbarz() {
                     </a>
                     <ul className="Navbar-nav">
                         <li><NavLink to="/">Home</NavLink></li>
-                        <li><NavLink to="/about">About Zwaara</NavLink></li>
-                        <li><a href="#">Join As Provider</a></li>
+                        <li><NavLink to="/newabout">About Zwaara</NavLink></li>
+                        <li><NavLink to="/join">Join As Provider</NavLink></li>
                         <li className='Dropdown'><a href="#">Get Care<i className="ri-arrow-drop-down-line"></i></a>
                         <div className="Dropdown-content">
                                 <li><a href="#">CareIndividual</a></li>

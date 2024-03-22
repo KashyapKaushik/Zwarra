@@ -3,6 +3,7 @@ import lab from '../assets/lab1.png'
 import abus from '../assets/abus.jpg'
 import { Link } from 'react-router-dom'
 
+
 function Aboutzwaara() {
   return (
     <>
@@ -37,6 +38,7 @@ function Aboutzwaara() {
 
       </div>
     </div>
+ 
     </>
   )
 }

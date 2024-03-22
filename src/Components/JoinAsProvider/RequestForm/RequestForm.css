@@ -1,0 +1,73 @@
+.requestformpage{
+    width: 70%;
+    margin: 40px auto;
+}
+
+.requestform{
+    box-shadow: 0 0px 10px 0 rgba(0,0,0,.1);
+    border: 1px solid transparent;
+    padding: 50px;
+}
+
+.requestform h3{
+    color: #002a56;
+    font-weight: 600;
+    text-align: center;
+    font-size: 35px;
+    padding: 20px;
+}
+
+.requestform p{
+    color: grey;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 5px 0;
+}
+.reqforcontent{
+    margin-top: 30px;
+}
+.reqforcontent input{
+    /* padding: 10px 130px 10px 15px; */
+    border: 1px solid #ACA9BB;
+    border-color: #E6E5EB;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.radiobtn{
+    width: 100%;
+    border: 1px solid #ACA9BB;
+    border-color: #E6E5EB;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    gap: 5px;
+
+}
+
+.radiobtn input{
+    width: auto;
+}
+
+.prevnextbtn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.prevnextbtn button{
+    background-color: #26A9E0;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 15px;
+}
+
+.prevnextbtn p{
+    color: #26A9E0;
+    font-size: 14px;
+    
+}

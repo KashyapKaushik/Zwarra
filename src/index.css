@@ -300,3 +300,308 @@ li a[class="logbtn"]{
   display: flex;
   justify-content: space-around;
 }
+
+
+.footersw{
+  background: linear-gradient(100.93deg, #AF2245 0%, #602D8A 100%);
+
+}
+
+.footersw a,p,h5{
+  color: white;
+  text-decoration: none;
+}
+
+.footersw a:hover{
+  text-decoration: underline;
+  
+}
+
+.socialmed{
+  display: flex;
+  /* justify-content: space-around; */
+  gap: 22px;
+  padding-top: 15px;
+}
+
+#fb{
+  border-radius: 50%;
+  background-color: #e5dbdb8c;
+  color: white;
+  /* transition: transform 0.2s; */
+  padding: 8px 13px;
+  height: 40px;
+  width: 40px;
+}
+
+
+
+.socialmed #fb:hover{
+  
+  color: blue;
+  transform: scale(1.5);
+}
+
+
+
+/* NEWABOUT ZWAARA */
+
+.newaboutzwara h1{
+  color: darkblue;
+  text-align: center;
+  font-size: 52px;
+  font-weight: 800;
+}
+
+.newaboutzwara .pp{
+  text-align: center;
+  color: grey;
+  padding: 20px 160px;
+}
+
+.sectionabout {
+  display: flex;
+  /* background-color: blue; */
+  /* height: auto; */
+  gap: 10px;
+  align-items: center;
+  /* background-color: pink; */
+
+ 
+}
+.sectionabout div{
+  border-radius: 5px;
+  width: 100%;
+  /* overflow: hidden; */
+  /* height: 100%; */
+
+}
+
+.sectionabout div img{
+  background: #26A9E0;
+}
+
+.sec1 img{
+    width: 182px;
+    transform: scaleX(-1);
+    padding: 12px;
+  border-radius: 5px;
+
+}
+.sec3 img{
+  padding:52px 0px;
+}
+/* 
+.secdiv{
+  width: 233px;
+  height: 170pxx;
+} */
+.sec4 .secdiv{
+  background-color: #26A9E0;
+  height:"170px";
+}
+.sec4 .secdiv h5{
+  padding: 18px 21px;
+  font-size: 24px;
+  color: white;
+}
+
+.sec4 .secdiv h6{
+  padding: 35px 20px;
+    color: white;
+    font-size: 24px;
+}
+
+.linkpart a{
+  padding: 16px;
+  background-color: #ebffea;
+  border-radius: 10px;
+  margin: 20px 0;
+  display: block;
+
+}
+
+.cardcont{
+  display: flex;
+  gap: 25px;
+}
+
+
+.cardsss{
+  width: 560px;
+  height: 230px;
+  border: none;
+  box-shadow: 0 0px 10px 0 rgba(0,0,0,0.4);
+  border-radius: 5px;
+  padding: 32px;
+}
+.heading{
+  display: flex;
+}
+
+.heading i{
+  font-size: 30px;
+  color: #04048b;
+  position: relative;
+}
+
+.heading i::after{
+  content: "";
+  position: absolute;
+  background-image: url("../src/assets/icon-bg.svg");
+  height: 52px;
+  width: 54px;
+  top: -13px;
+  background-size: 101%;
+  right: -10px;
+
+}
+
+
+.cardsss h3{
+  color: #002a56;
+  font-size: 22px;
+  font-weight: 600;
+  margin-left: 30px;
+  
+}
+
+.cardsss h5{
+  color: gray;
+  padding-left: 5px;
+  padding-top: 35px;
+}
+
+.newcardsab div{
+  /* border: 2px solid black; */
+  border-radius: 25px;
+}
+.newcardsab{
+  margin-bottom: 95px;
+}
+
+.newcardsab h2{
+  color: #002a56;
+  text-align: center;
+  font-size: 44px;
+  margin: 45px 0;
+  font-weight: 600;
+}
+
+.cardpt1{
+  color: white;
+  background-color: #26A9E0;
+  padding: 30px;
+}
+.cardpt1 h4,.cardpt2 h4,.cardpt3 h4{
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+}
+
+.cardpt1 p,.cardpt2 p.cardpt3 p{
+  font-size: 14px;
+  font-weight: 100;
+  color: white;
+}
+.cardpt2{
+  background-color: #00c7e5;
+  color: white;
+  padding: 30px;
+}
+.cardpt3{
+  background: linear-gradient(89.63deg, #26A9E0 7.43%, rgba(38, 169, 224, 0.72) 94.45%);
+    margin-top: 24px;
+    padding: 50px;
+
+}
+
+.taggs{
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.icon-arrow-right{
+  background-color: white;
+  border-radius: 50%;
+  font-size: 20px;
+  padding: 13px;
+  color: #26A9E0;
+}
+
+
+.whysanar h2{
+  color: #002a56;
+  text-align: center;
+  font-size: 44px;
+  margin: 30px 0;
+  font-weight: 600;
+}
+.whysanar .textws{
+  text-align: center;
+  color: grey;
+  padding: 20px 66px;
+
+}
+.whysanar p{
+  color: grey;
+  font-size: 14px;
+
+}
+
+.whysanar i{
+  background: rgb(59, 223, 59);
+  color: white;
+  border-radius: 50%;
+  padding: 6px;
+  font-size: 12px;
+}
+.whysanar .sanar > div{
+  display: flex;
+  align-items: start;
+  gap: 10px;
+}
+
+
+.backimage{
+  background-image: url('../src/assets/sanarservice.png');
+  height: 420px;
+  /* width: 100%; */
+  border-radius: 5px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.backimage h2{
+  text-align: center;
+  padding: 20px 200px 60px;
+  font-size: 42px;
+  color: white;
+}
+
+.backimage button{
+  padding: 10px 25px;
+  color: #26A9E0;
+  background: white;
+  border: 1px solid #26A9E0;
+  gap: 5px;
+  border-radius: 10px;
+}
+
+.backimage button:hover{
+  background: #002A56;
+  color: white;
+}
+
+.backimage button:hover i{
+  color: #26A9E0;
+}
+

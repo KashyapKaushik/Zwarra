@@ -6,6 +6,7 @@ import Aboutzwaara from '../Aboutzwaara'
 import Questions from '../Questions'
 import Joinuspage from '../Joinuspage'
 
+
 function Homepage() {
   return (
     <>
@@ -15,6 +16,7 @@ function Homepage() {
     <Customereview/>
     <Questions/>
     <Joinuspage/>
+  
     
     </>
   )

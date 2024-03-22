@@ -1,0 +1,151 @@
+
+.differentdep{
+    padding: 15px;
+    text-decoration: none;
+}
+.differentdep a{
+    text-decoration: none;
+}
+.newdpartment h5{
+    color: #002A56;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+
+.newdpartment span{
+    color: gray;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.optionpart{
+    background-color: #EAF7FC;
+    border-radius: 10x;
+    box-shadow: 0 0px 10px 0 rgba(0,0,0,.1)
+    /* background-image: linear-gradient(249.24deg, rgba(38, 169, 224, 0.15) 34.27%, rgba(79, 231, 101, 0.15) 89.68%); */
+}
+
+.optionpart ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+    position: relative;
+    
+}
+.optionpart ul li{
+    color: gray;
+    background-color: white;
+    padding: 8px 3px 8px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+.optionpart ul li i{
+    position: relative;
+    left: -7px;
+    font-size: 9px;
+    background-color:  #4fe765;
+    border-radius: 50%;
+    color: white;
+    padding: 4px;
+}
+
+.newtag{
+    color: #26A9E0;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 50px;
+    font-size: 16px;
+}
+.newtag i{
+    background-color: #26A9E0;
+    color: white;
+}
+
+
+
+.downloadpart h2{
+    font-size: 44px;
+    color: #002a56;
+    font-weight: 600;
+
+}
+.downloadpart button{
+    background-color: #26A9E0;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.dbutton{
+    background-color: #def2fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 25px;
+    padding: 11px 0px;
+    border-radius: 20px;
+}
+.downloadpart .playstore img{
+    width: 225px;
+    height: 66px;
+    margin-top: 30px;
+}
+.downloadpart .playstore{
+    display: flex;
+    gap: 10px;
+}
+
+
+.downloadpart .dpart2 img{
+    width: 100%;
+}
+
+.joinsanarback{
+    background-image: url('../../../assets/Joinaspovider/serviceproviderbg.svg');
+    width: 100%;
+    height: 430px;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.joinsanarback h2{
+    color: white;
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 15px;
+
+}
+.joinsanarback p{
+    font-size: 14px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.joinsanarback button{
+    padding: 10px 25px;
+    color: #26A9E0;
+    background: white;
+    border: 1px solid #26A9E0;
+    gap: 5px;
+    border-radius: 10px;
+  }
+  
+  .joinsanarback button:hover{
+    background: #002A56;
+    color: white;
+    transition: all 0.5s ease;
+  }
+  
+  .joinsanarback button:hover i{
+    color: #26A9E0;
+  }

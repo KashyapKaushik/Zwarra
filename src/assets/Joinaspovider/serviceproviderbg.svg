@@ -1,0 +1,67 @@
+<svg width="1216" height="432" viewBox="0 0 1216 432" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_877_12582)">
+<rect width="1216" height="432" rx="20" fill="url(#paint0_linear_877_12582)"/>
+<path opacity="0.2" d="M-13.8745 349.212C64.6194 375.7 149.724 333.541 176.212 255.047C202.7 176.553 160.541 91.4486 82.047 64.9606C3.55301 38.4726 -81.5517 80.6318 -108.04 159.126" stroke="white" stroke-width="4" stroke-linecap="round"/>
+<g opacity="0.5">
+<path d="M927 1H931V5H927V1Z" fill="white"/>
+<path d="M951 1H955V5H951V1Z" fill="white"/>
+<path d="M975 1H979V5H975V1Z" fill="white"/>
+<path d="M999 1H1003V5H999V1Z" fill="white"/>
+<path d="M1023 1H1027V5H1023V1Z" fill="white"/>
+<path d="M1047 1H1051V5H1047V1Z" fill="white"/>
+<path d="M1071 1H1075V5H1071V1Z" fill="white"/>
+<path d="M927 25H931V29H927V25Z" fill="white"/>
+<path d="M951 25H955V29H951V25Z" fill="white"/>
+<path d="M975 25H979V29H975V25Z" fill="white"/>
+<path d="M999 25H1003V29H999V25Z" fill="white"/>
+<path d="M1023 25H1027V29H1023V25Z" fill="white"/>
+<path d="M1047 25H1051V29H1047V25Z" fill="white"/>
+<path d="M1071 25H1075V29H1071V25Z" fill="white"/>
+<path d="M927 49H931V53H927V49Z" fill="white"/>
+<path d="M951 49H955V53H951V49Z" fill="white"/>
+<path d="M975 49H979V53H975V49Z" fill="white"/>
+<path d="M999 49H1003V53H999V49Z" fill="white"/>
+<path d="M1023 49H1027V53H1023V49Z" fill="white"/>
+<path d="M1047 49H1051V53H1047V49Z" fill="white"/>
+<path d="M1071 49H1075V53H1071V49Z" fill="white"/>
+<path d="M927 73H931V77H927V73Z" fill="white"/>
+<path d="M951 73H955V77H951V73Z" fill="white"/>
+<path d="M975 73H979V77H975V73Z" fill="white"/>
+<path d="M999 73H1003V77H999V73Z" fill="white"/>
+<path d="M1023 73H1027V77H1023V73Z" fill="white"/>
+<path d="M1047 73H1051V77H1047V73Z" fill="white"/>
+<path d="M1071 73H1075V77H1071V73Z" fill="white"/>
+<path d="M927 97H931V101H927V97Z" fill="white"/>
+<path d="M951 97H955V101H951V97Z" fill="white"/>
+<path d="M975 97H979V101H975V97Z" fill="white"/>
+<path d="M999 97H1003V101H999V97Z" fill="white"/>
+<path d="M1023 97H1027V101H1023V97Z" fill="white"/>
+<path d="M1047 97H1051V101H1047V97Z" fill="white"/>
+<path d="M1071 97H1075V101H1071V97Z" fill="white"/>
+<path d="M927 121H931V125H927V121Z" fill="white"/>
+<path d="M951 121H955V125H951V121Z" fill="white"/>
+<path d="M975 121H979V125H975V121Z" fill="white"/>
+<path d="M999 121H1003V125H999V121Z" fill="white"/>
+<path d="M1023 121H1027V125H1023V121Z" fill="white"/>
+<path d="M1047 121H1051V125H1047V121Z" fill="white"/>
+<path d="M1071 121H1075V125H1071V121Z" fill="white"/>
+<path d="M927 145H931V149H927V145Z" fill="white"/>
+<path d="M951 145H955V149H951V145Z" fill="white"/>
+<path d="M975 145H979V149H975V145Z" fill="white"/>
+<path d="M999 145H1003V149H999V145Z" fill="white"/>
+<path d="M1023 145H1027V149H1023V145Z" fill="white"/>
+<path d="M1047 145H1051V149H1047V145Z" fill="white"/>
+<path d="M1071 145H1075V149H1071V145Z" fill="white"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_877_12582" x1="214.956" y1="323.059" x2="508.823" y2="-288.056" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4FE765"/>
+<stop offset="0.52" stop-color="#26A9E0"/>
+<stop offset="1" stop-color="#26A9E0"/>
+</linearGradient>
+<clipPath id="clip0_877_12582">
+<rect width="1216" height="432" rx="20" fill="white"/>
+</clipPath>
+</defs>
+</svg>

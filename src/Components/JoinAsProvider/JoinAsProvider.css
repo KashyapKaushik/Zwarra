@@ -1,0 +1,104 @@
+.header-img-content{
+    background: url('../../assets/Joinaspovider/about-bg.png');
+    width: 100%;
+}
+
+.header-img-content h2{
+    color: #002a56;
+    font-size: 46px;
+    font-weight: 600;
+    padding: 10px 150px;
+    line-height: 2;
+    text-align: center;
+}
+
+.client-img img{
+    width: 50px;
+    height: 50px;
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 2px;
+    margin-right: -10px;
+}
+.client-img p{
+    margin-left: 10px;
+    color: gray;
+}
+
+.client-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.howtojoinpart h2{
+    color: #002a56;
+    font-size: 46px;
+    font-weight: 600;
+    text-align: center;
+    margin: 75px 0;
+
+}
+
+.service-join-list{
+    list-style: none;
+    display: flex;
+    /* gap: 20px; */
+}
+
+.service-join-list li{
+    display: flex;
+    flex-direction: column;
+    padding: 0 60px;
+    align-items: center;
+}
+
+.service-join-list .mainicon{
+    font-size: 70px;
+    color: #020288;
+    position: relative;
+}
+.service-join-list .mainicon::after{
+    content: "";
+    position: absolute;
+    background-image: url('../../assets/icon-bg.svg');
+    width: 74px;
+    height: 72px;
+    background-size: 100%;
+    left: 14px;
+    top: 0;
+}
+.service-join-list h5{
+    color: #002a56;
+    font-size: 22px;
+    padding: 15px 0px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+.service-join-list small{
+    position: absolute;
+    left: -10px;
+    top: -12px;
+    font-size: 14px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #26A9E0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-arrow-right-thick{
+    color: #26A9E0;
+    position: absolute;
+    font-size: 15px;
+    margin-left: 370px;
+    /* top: 0; */
+    /* right: 0; */
+
+}

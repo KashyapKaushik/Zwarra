@@ -1,0 +1,96 @@
+.joininpage{
+    width: 70%;
+    margin: 40px auto;
+}
+
+.joincard{
+    box-shadow: 0 0px 10px 0 rgba(0,0,0,.1);
+    border: 1px solid transparent;
+    padding: 50px;
+}
+.joincard h3{
+    color: #002a56;
+    font-weight: 600;
+    text-align: center;
+    font-size: 35px;
+    padding: 20px;
+}
+
+.joincard p{
+    color: grey;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 5px 0;
+}
+.joincard .card-imagepart h3{
+    color: #002a56;
+    font-size: 20px;
+    text-align: start;
+
+}
+.cardul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    
+
+}
+
+.cardul li {
+    height: 180px;
+    width: 200px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,.1);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+
+}
+
+.cardul li:hover{
+    border: 1px solid #6cc4ea;
+    background-color: #eaf7fc;
+    border-radius: 10px;
+
+}
+
+.cardul .sa-sprite-new {
+    content: '';
+    background: url(https://sanar-assets.com/images/sprite/v5/sprite.svg) no-repeat;
+    display: inline-block;
+    background-size: 1600px;
+}
+.cardul i {
+    margin: 0 0 10px;
+    width: 44px;
+    height: 54px;
+    margin-bottom: 15px;
+}
+
+.card-part1,.card-part2,.card-part3,.card-part4{
+    display: flex;
+    flex-direction: column;
+}
+.card-part1 i.sa-doc-spe {
+    background-position: -180px 0;
+}
+
+
+.card-part2 i.sa-hos-cen {
+    background-position: -224px 0;
+}
+
+.card-part3 i.sa-in-company {
+    background-position: -269px 0;
+}
+
+.card-part4 i.sa-practitioners {
+    background-position: -475px 0;
+    background-size: 1305px;
+    width: 38px;
+}
