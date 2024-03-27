@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../assets/logoo.png'
 import { NavLink } from 'react-router-dom'
+import Modal from './Model/Modal'
 
 function Navbarz() {
   return (
@@ -32,7 +33,8 @@ function Navbarz() {
                                 
                             </div>
                         </li>
-                        <li><a className='logbtn' href="#">Login</a></li>
+                        <li><a className='logbtn' href="#" data-bs-toggle="modal" data-bs-target="#loginpopup">Login</a></li>
+                        <Modal/>
                     </ul>
                 </div>
     </>

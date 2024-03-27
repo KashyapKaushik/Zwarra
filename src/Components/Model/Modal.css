@@ -1,0 +1,84 @@
+.modal-body{
+    border: 1px solid black;
+}
+
+.modal-body .closebtn{
+    padding: 15px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+  
+    left: 500px;
+    top: -22px;
+}
+
+ .newbody{
+   border-radius: 10px;
+   padding: 20px;
+    background-color: #EAF7FC;
+}
+.selectcountrypart{
+    background-color: white;
+    padding: 20px;
+    /* border: 2px solid grey; */
+    border-radius: 10px;
+    box-shadow: 0 0px 10px 0 rgba(0,0,0,.1);
+
+}
+
+.dp{
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+}
+.dpcontent{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    width: 100%;
+    height: 300px;
+    cursor: pointer;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.dropdown:hover .dpcontent{
+    display: block;
+    /* background-color: pink; */
+}
+#searchid{
+    border: 2px solid #26A9E0;
+    padding: 5px;
+    border-radius: 10px;
+    width: 100%;
+    /* position: fixed; */
+}
+.mnumbercontent{
+    display: flex;
+    border: 1px solid black;
+}
+
+.mnumbercontent .codepart{
+    margin: 5px 10px;
+}
+
+.mnumbercontent input{
+    width: 100%;
+    border: none;
+}
+
+.selectcountrypart .dp,.selectcountrypart .mnumbercontent{
+    padding: 5px 10px;
+    border-radius: 7px;
+    border: 1px solid gray;
+
+}
+
+#clink{
+    color: #26A9E0;
+    text-decoration: underline;
+}
+.selectcountrypart button{
+    width: 100%;
+    margin: 20px 0px;
+}

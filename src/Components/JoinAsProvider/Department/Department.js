@@ -20,8 +20,8 @@ function Department() {
         setNewShowImage(nimage)
     };
     const [new1showImage, setNew1ShowImage] =useState (im2);
-    const handleNewBtnClick1 = (nimage) => {
-        setNewShowImage(nimage)
+    const handleNewBtnClick1 = (n1image) => {
+        setNewShowImage(n1image)
     };
 
     // Function to handle button click
@@ -128,12 +128,12 @@ function Department() {
             <div className='col-6 dpart1'>
                 <h2>Download Sanar Pro</h2>
                 <div className='dbutton'>
-                    <button onClick={() => (handleButtonClick(im1),handleNewBtnClick(im1),handleNewBtnClick1(im1))}>Application Download</button>
-                    <button onClick={() => (handleButtonClick(im4),handleNewBtnClick(im2),handleNewBtnClick1(im2))}>Desktop Download</button>
+                    <button onClick={() => (handleButtonClick(im1),handleNewBtnClick(im2),handleNewBtnClick1(im2))}>Application Download</button>
+                    <button onClick={() => (handleButtonClick(im4),handleNewBtnClick(im3),handleNewBtnClick1(im3))}>Desktop Download</button>
                 </div>
                 <div className='playstore'>
                     <img src={newshowImage} />
-                    <img src={im2} />
+                    <img src={new1showImage} />
                 </div>
 
             </div>
