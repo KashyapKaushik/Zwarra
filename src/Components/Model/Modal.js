@@ -71,7 +71,7 @@ import { countriess } from '../Data/CountryData'
 
 
 function Modal() {
-    const [flag, setFlag] = useState('');
+    const [flag, setFlag] = useState('https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1920px-Flag_of_India.svg.png');
     const [ctCode, setCtCode] = useState('+91')
     const [ctName, setCtName] = useState('Select Name');
     const [serach, setSearch] = useState('');

@@ -16,8 +16,8 @@ function Navbarz() {
                         <li><NavLink to="/join">Join As Provider</NavLink></li>
                         <li className='Dropdown'><a href="#">Get Care<i className="ri-arrow-drop-down-line"></i></a>
                         <div className="Dropdown-content">
-                                <li><a href="#">CareIndividual</a></li>
-                                <li><a href="#">Carebussines</a></li>        
+                                <li><NavLink to="/individualp">CareIndividual</NavLink></li>
+                                <li><NavLink to="/business">Carebussines</NavLink></li>        
                         </div>
                         </li>
                         <li className="Dropdown">

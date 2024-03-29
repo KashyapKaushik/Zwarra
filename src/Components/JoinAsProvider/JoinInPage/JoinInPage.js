@@ -8,8 +8,8 @@ function JoinInPage() {
     <div className='container-fluid'>
         <div className='container joininpage'>
             <div className='joincard'>
-                <h3>Provide my services via Sanar Request form </h3>
-                <p>We are pleased to cooperate with us in providing and facilitating access to your services Via Sanar platform</p>
+                <h3>Provide my services via Zwaara Request form </h3>
+                <p>We are pleased to cooperate with us in providing and facilitating access to your services Via Zwaara platform</p>
                 <div className='card-imagepart'>
                     <h3>Provide your services as</h3>
                     <ul className='cardul'>

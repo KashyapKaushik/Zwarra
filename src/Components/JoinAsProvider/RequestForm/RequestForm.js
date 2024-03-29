@@ -3,6 +3,7 @@ import { BsChevronDown } from 'react-icons/bs';
 import './RequestForm.css'
 import PhoneNumberForm from '../../Checking/PhoneNumberForm';
 import { Link } from 'react-router-dom';
+import { countriess } from '../../Data/CountryData';
 
 function RequestForm() {
 
@@ -30,8 +31,8 @@ function RequestForm() {
             <div className='container-fluid'>
                 <div className='container requestformpage'>
                     <div className='requestform'>
-                        <h3>Provide my services via Sanar Request form </h3>
-                        <p>We are pleased to cooperate with us in providing and facilitating access to your services Via Sanar platform</p>
+                        <h3>Provide my services via Zwaara Request form </h3>
+                        <p>We are pleased to cooperate with us in providing and facilitating access to your services Via Zwaara platform</p>
                         <form className='reqforcontent'>
                             <div className='row' style={{ marginBottom: "20px" }}>
                                 <div className='col-6' >
@@ -81,10 +82,14 @@ function RequestForm() {
                                             className="form-select"
 
                                         >
-                                            <option value="">Select Country</option>
+                                            <input type='text' placeholder='Search here'/>
+                                            {countriess.map((item,index) => (
+                                                <option key={index}><img src={item.flag} height={20} width={20}/>{item.country}{item.phone_code}</option>
+                                            ))}
+                                            {/* <option value="">Select Country</option>
                                             <option value="USA">USA</option>
                                             <option value="UK">UK</option>
-                                            <option value="Canada">Canada</option>
+                                            <option value="Canada">Canada</option> */}
                                         </select>
 
                                     </div>

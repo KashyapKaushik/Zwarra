@@ -12,6 +12,8 @@ import JoinAsProvider from './Components/JoinAsProvider/JoinAsProvider';
 import JoinInPage from './Components/JoinAsProvider/JoinInPage/JoinInPage';
 import RequestForm from './Components/JoinAsProvider/RequestForm/RequestForm';
 import PhoneNumberForm from './Components/Checking/PhoneNumberForm';
+import ForIndividual from './Components/GetCare/ForIndividual/ForIndividual';
+import ForBusiness from './Components/GetCare/ForBusiness/ForBusiness';
 function App() {
   return (
     <>
@@ -34,6 +36,10 @@ function App() {
             <Route exact path='/join' element={<JoinAsProvider/>}></Route>
             <Route exact path='/joinin' element={<JoinInPage/>}></Route>
             <Route exact path='/req' element={<RequestForm/>}></Route>
+            <Route exact path='/individualp' element={<ForIndividual/>}></Route>
+            <Route exact path='/business' element={<ForBusiness/>}></Route>
+
+
         </Routes>
     <Footerzwaara/>
     </Router> 

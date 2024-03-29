@@ -13,9 +13,9 @@ import AdvantagePart from './AdvantagePart/AdvantagePart'
 function JoinAsProvider() {
   return (
     <>
-    <div className='container-fluid'>
+    <div className='container-fluid '>
         <div className='header-img-content'>
-            <h2>Participate in facilitating access to medical services in modern and flexible ways with sanar</h2>
+            <h2>Participate in facilitating access to medical services in modern and flexible ways with Zwaara</h2>
             <div>
                 <div className='client-img'>
                     <img src={d1} alt='img'/>
@@ -42,7 +42,7 @@ function JoinAsProvider() {
             </li>
             <li>
             <i class="icon-call-center-agent sa-icon-bg sa-icon-bg-lg mainicon"><small>2</small></i>
-            <h5>Sanar team will Contact you</h5>
+            <h5>Zwaara team will Contact you</h5>
             <i class="icon-arrow-right-thick"></i>
             </li>
             <li>

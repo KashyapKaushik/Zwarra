@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 function AdvantagePart() {
   return (
-    <div className='container advantagepart'>
+    <div className='container advantagepart mt-5'>
     <h4>Advantages of joining</h4>
     <div className='row joinpart1'>
         <div className='col-6'>

@@ -126,7 +126,7 @@ function Department() {
         </div>
         <div className='row downloadpart' style={{marginTop:"100px"}}>
             <div className='col-6 dpart1'>
-                <h2>Download Sanar Pro</h2>
+                <h2>Download Zwaara Pro</h2>
                 <div className='dbutton'>
                     <button onClick={() => (handleButtonClick(im1),handleNewBtnClick(im2),handleNewBtnClick1(im2))}>Application Download</button>
                     <button onClick={() => (handleButtonClick(im4),handleNewBtnClick(im3),handleNewBtnClick1(im3))}>Desktop Download</button>
@@ -146,7 +146,7 @@ function Department() {
 
         </div>
         <div className='joinsanarback' style={{marginTop:"100px"}}>
-            <h2>Join Sanar Now</h2>
+            <h2>Join Zwaara Now</h2>
             <p>To provide your medical services and enjoy innovative benefits</p>
             <button><i class="icon-welfare sa-pr10"></i>Request join as service provider</button>
 

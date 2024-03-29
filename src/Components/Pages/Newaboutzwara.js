@@ -91,7 +91,7 @@ function Newaboutzwara() {
             <div className='row'>
                     <div className='col-lg-12 cardpt3'>
                         <h4>Doctors and specialists</h4>
-                        <p>Would you like to provide your medical advice through Sanar?</p>
+                        <p>Would you like to provide your medical advice through Zwaara?</p>
                     <a className='taggs' href='' style={{marginTop:"55px"}}><i class="icon-arrow-right"></i> See Services</a>
 
                     </div>
@@ -105,7 +105,7 @@ function Newaboutzwara() {
                 </div>
                 <div className='col-lg-7  cardpt1'>
                     <h4>Hospitals and healthcare centers</h4>
-                    <p>Would you like to provide your medical services through Sanar?</p>
+                    <p>Would you like to provide your medical services through Zwaara?</p>
                     <a className='taggs' href='' style={{marginTop:"151px"}}><i class="icon-arrow-right"></i> See Services</a>
                 </div>
                 {/* <div className='col-lg-4'>
@@ -115,7 +115,7 @@ function Newaboutzwara() {
                 </div>
                 <div className='col-lg-8'>
                     <h4>Hospitals and healthcare centers</h4>
-                    <p>Would you like to provide your medical services through Sanar?</p>
+                    <p>Would you like to provide your medical services through Zwaara?</p>
                     <a className='taggs' href=''><i class="icon-arrow-right"></i> See Services</a>
 
                 </div>
@@ -125,8 +125,8 @@ function Newaboutzwara() {
 
         </div>
         <div className='container whysanar'>
-            <h2>Why Sanar?</h2>
-            <p className='textws'>Sanar will guarantees for you the best medical care from specialized consultations and home medical services such as lab tests, nursing, and etc, with an elit of consultants and specialists.</p>
+            <h2>Why Zwaara?</h2>
+            <p className='textws'>Zwaara will guarantees for you the best medical care from specialized consultations and home medical services such as lab tests, nursing, and etc, with an elit of consultants and specialists.</p>
             <div className='row sanar'>
                 <div className='col-3'>
                 <i class="icon-checked"></i>
@@ -164,7 +164,7 @@ function Newaboutzwara() {
         </div>
 
         <div className='container backimage'>
-            <h2>Join us and get benefit from Sanar services</h2>
+            <h2>Join us and get benefit from Zwaara services</h2>
             <div>
                 <button style={{marginRight:"35px"}}><i class="icon-welfare sa-pr10"></i>Provide a service</button>
                 <button><i class="icon-users sa-pr10"></i>Get care</button>
