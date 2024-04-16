@@ -8,6 +8,7 @@ import Joinuspage from '../Joinuspage'
 
 
 function Homepage() {
+  
   return (
     <>
     <Carousel/>
@@ -16,6 +17,7 @@ function Homepage() {
     <Customereview/>
     <Questions/>
     <Joinuspage/>
+
   
     
     </>

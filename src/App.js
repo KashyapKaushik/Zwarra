@@ -43,6 +43,8 @@ function App() {
         </Routes>
     <Footerzwaara/>
     </Router> 
+
+   
     </>
 
   );
